@@ -1,0 +1,39 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation bar styling */
+.navbar {
+    background-color: #333;
+    padding: 15px 30px;
+}
+
+/* Navigation links container */
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Individual link styling */
+.nav-links li {
+    margin: 0 15px;
+}
+
+/* Link appearance */
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 15px;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+    color: #ff6347; /* Change to any color you prefer */
+}
